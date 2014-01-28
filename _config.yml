@@ -36,6 +36,10 @@ prose:
 exclude:
 - Gemfile
 - Gemfile.lock
+- Guardfile
 - Rakefile
 - vendor
 - script
+- CNAME
+- README.md
+- LICENSE
