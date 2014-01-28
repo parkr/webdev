@@ -18,6 +18,17 @@ Uses [gridism by @cobyism][] and [@mojombo's syntax.css][] (the latter with slig
 [gridism by @cobyism]: http://cobyism.com/gridism/
 [@mojombo's syntax.css]: https://github.com/mojombo/mojombo.github.io/blob/master/css/syntax.css
 
+## Contributing
+
+1. Fork it!
+2. Clone your fork
+3. Start a new feature branch
+3. Run `bundle install`
+4. Run `JEKYLL_SERVE=true bundle exec guard` as you dev
+5. Commit your changes
+6. Send in a PR
+8. PROFIT :money:
+
 ## License
 
 See the LICENSE file.
