@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="alternate" href="/atom.xml"  title="{{ site.name }}" type="application/atom+xml">
+  <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.name }}</title>
+  <link rel="stylesheet" href="/css/parkersstuff.css">
+  {% include gauges.html %}
+</head>
+<body class="grid">
+  <div class="unit whole">
+    <a href="/">parker's stuff</a>
+  </div>
+  <div class="unit whole">
+    {{ content }}
+  </div>
+</body>
+</html>
+
