@@ -60,6 +60,12 @@ img {
   display: block;
 }
 
+.unit.sidebar {
+  font-size: .6em;
+  border-left: 8px solid $font-colour;
+  padding-left: 2em;
+}
+
 @media (max-width: 800px) {
   body { font-size: 1em; }
 }
