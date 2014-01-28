@@ -59,3 +59,7 @@ img {
   margin: .5em 0 .25em;
   display: block;
 }
+
+@media (max-width: 800px) {
+  body { font-size: 1em; }
+}
