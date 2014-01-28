@@ -2,7 +2,7 @@ markdown: redcarpet
 
 name: "parker's webdev resources"
 author: "Parker Moore"
-url: "http://blog.parkermoore.de/webdev/"
+url: "http://blog.parkermoore.de/webdev"
 excerpt_separator: ""
 
 prose:
