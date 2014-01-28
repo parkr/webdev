@@ -2,7 +2,7 @@
 @import "_gridism";
 
 /* Variables */
-$background: #f7f6f3 url("../images/glitch.png") repeat-x left -340px;
+$background: #f4efe2 url("../images/glitch.png") repeat-x left -340px;
 $header-colour: #00b2ff;
 
 $link-colour: #324272;
@@ -53,8 +53,9 @@ img {
 }
 
 .site-name {
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  margin: 2em 0 1em;
+  margin: .5em 0 .25em;
+  display: block;
 }
