@@ -1,0 +1,3 @@
+#! /bin/bash
+
+JEKYLL_SERVE=true bundle exec guard
