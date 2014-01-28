@@ -1,11 +1,8 @@
 markdown: redcarpet
 
-name: "parker's stuff"
+name: "parker's webdev resources"
 author: "Parker Moore"
-email: "parkrmoore@gmail.com"
-url: "http://stuff.parkermoore.de"
-dotfiles: "https://github.com/parkr/dotfiles"
-mind_blown: "![mind-blowing](/images/mind_blown.gif)"
+url: "http://blog.parkermoore.de/webdev-resources/"
 excerpt_separator: ""
 
 prose:
