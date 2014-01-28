@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div class="unit one-fifth hide-on-mobiles">&nbsp;</div>
 
-<div class="unit three-fifths">
   <!-- begin content -->
-  <div class="unit two-thirds">
-    <p>
+  <div class="unit two-thirds post-external-link">
+    <h1>
       {% if page.external-url %}
       <a href="{{ page.external-url }}" target="_blank">{{ page.title }} &rarr;</a>
       {% endif %}
-    </p>
+    </h1>
+    <div class="link-description">
     {{ content }}
+    </div>
   </div>
   <!-- end content -->
 
@@ -33,7 +33,3 @@ layout: default
     </p>
   </div>
   <!-- end sidebar -->
-
-</div>
-
-<div class="unit one-fifth hide-on-mobiles">&nbsp;</div>

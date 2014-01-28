@@ -56,14 +56,30 @@ img {
   font-size: 2.5em;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  margin: .5em 0 .25em;
+  margin: .75em 0 .25em;
   display: block;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .unit.sidebar {
   font-size: .6em;
   border-left: 8px solid $font-colour;
   padding-left: 2em;
+}
+
+.post-external-link {
+
+  h1 {
+    margin-top: 0;
+    font-size: 1.5em; }
+
+  .link-description { font-size: .85em; }
+
+}
+
+@media (max-width: 1200px) {
+  .site-name { font-size: 1.5em; }
 }
 
 @media (max-width: 800px) {
