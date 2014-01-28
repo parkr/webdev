@@ -2,33 +2,29 @@
 layout: default
 ---
 
-<div class="unit one-fifth hide-on-mobiles">&nbsp;</div>
 
-<div class="unit three-fifths">
   <!-- begin content -->
-  <div class="unit two-thirds">
-    <p>
+  <div class="unit two-thirds post-external-link">
+    <h1>
       {% if page.external-url %}
       <a href="{{ page.external-url }}" target="_blank">{{ page.title }} &rarr;</a>
       {% endif %}
-    </p>
+    </h1>
+    <div class="link-description">
     {{ content }}
+    </div>
   </div>
   <!-- end content -->
 
   <!-- begin sidebar -->
   <div class="unit one-third sidebar">
     <p>
-      {% if page.external-url %}
-      <a href="{{ page.external-url }}" target="_blank">Link</a>
-      {% endif %}
-
       {% if page.mirror %}
       <a href="/mirrors/{{ page.mirror }}">Mirror</a>
       {% endif %}
     </p>
 
-    <p><a href="/">Go back to list</a></p>
+    <p><a href="/">&larr; Go back to list</a></p>
 
     <p>Found a problem?
        <a href="http://prose.io/#parkr/webdev/edit/gh-pages/{{ page.path }}">
@@ -37,7 +33,3 @@ layout: default
     </p>
   </div>
   <!-- end sidebar -->
-
-</div>
-
-<div class="unit one-fifth hide-on-mobiles">&nbsp;</div>

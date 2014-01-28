@@ -2,13 +2,13 @@
 @import "_gridism";
 
 /* Variables */
-$background: url("../images/glitch.png");
+$background: #f4efe2 url("../images/glitch.png") repeat-x left -340px;
 $header-colour: #00b2ff;
 
-$link-colour: #F7F5D5;
+$link-colour: #324272;
 $link-colour-dark: $link-colour; // $link-colour - #111111;
 
-$font-colour: lighten($link-colour, 0.5);
+$font-colour: #29646f;
 
 $selection_color: #f5f5f5;
 $selection_bg_color: #0f5fff;
@@ -17,13 +17,12 @@ body {
   font-family: Consolas, "Liberation Mono", Monaco, Courier, monospace;
   background: $background;
   color: $font-colour;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
-  text-transform: uppercase;
   font-size: 2em;
 }
 
 a {
   color: $link-colour;
+  text-decoration: none;
   &:hover { text-decoration: underline; }
   &:visited { color: $link-colour-dark; }
 }
@@ -51,4 +50,38 @@ blockquote {
 
 img {
   width: 100%;
+}
+
+.site-name {
+  font-size: 2.5em;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin: .75em 0 .25em;
+  display: block;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.unit.sidebar {
+  font-size: .6em;
+  border-left: 8px solid $font-colour;
+  padding-left: 2em;
+}
+
+.post-external-link {
+
+  h1 {
+    margin-top: 0;
+    font-size: 1.5em; }
+
+  .link-description { font-size: .85em; }
+
+}
+
+@media (max-width: 1200px) {
+  .site-name { font-size: 1.5em; }
+}
+
+@media (max-width: 800px) {
+  body { font-size: 1em; }
 }
