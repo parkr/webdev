@@ -1,11 +1,16 @@
+{% if site.GH_ENV %}
+  {% capture site_url %}{{ site.url }}{% endcapture %}
+{% else %}
+  {% capture site_url %}{% endcapture %}
+{% endif %}
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="alternate" href="{{ site.url }}/atom.xml"  title="{{ site.name }}" type="application/atom+xml">
+  <link rel="alternate" href="{{ site_url }}/atom.xml"  title="{{ site.name }}" type="application/atom+xml">
   <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.name }}</title>
-  <link rel="stylesheet" href="{{ site.url }}/css/parkersstuff.css">
+  <link rel="stylesheet" href="{{ site_url }}/css/parkersstuff.css">
   {% include gauges.html %}
 </head>
 <body class="grid">
