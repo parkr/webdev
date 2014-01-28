@@ -23,8 +23,8 @@ Uses [gridism by @cobyism][] and [@mojombo's syntax.css][] (the latter with slig
 1. Fork it!
 2. Clone your fork
 3. Start a new feature branch
-3. Run `bundle install`
-4. Run `JEKYLL_SERVE=true bundle exec guard` as you dev
+3. Run `script/bootstrap`
+4. Run `script/server` as you dev
 5. Commit your changes
 6. Send in a PR
 8. PROFIT :money:
