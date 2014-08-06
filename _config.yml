@@ -5,6 +5,8 @@ author: "Parker Moore"
 url: "http://webdev.parkermoo.re"
 excerpt_separator: ""
 
+permalink: /:categories/:title:output_ext
+
 prose:
   metadata:
     _posts:
@@ -34,9 +36,6 @@ prose:
           placeholder: "some-file.txt"
 
 exclude:
-- Gemfile
-- Gemfile.lock
-- Guardfile
 - Rakefile
 - vendor
 - script

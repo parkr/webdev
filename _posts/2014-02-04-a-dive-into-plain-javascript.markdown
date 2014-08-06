@@ -3,6 +3,9 @@ layout: post
 title: "A Dive Into Plain JavaScript"
 date: 2014-02-04 17:40:40 -0500
 external-url: http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/
+redirect_from: /2014/02/04/a-dive-into-plain-javascript.html
+categories: [programming]
+tags: [book, tutorial, javascript]
 ---
 
 It's amazing just how much plain-jane JavaScript can do. Next time you go to

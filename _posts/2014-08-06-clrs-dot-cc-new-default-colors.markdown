@@ -3,6 +3,9 @@ layout: post
 title: "clrs.cc - new default colors"
 date: 2014-08-06 00:28:04 -0400
 external-url: "http://clrs.cc"
+redirect_from: /2014/08/06/clrs-dot-cc-new-default-colors.html
+categories: [design]
+tags: [color]
 ---
 
 clrs.cc offers some new default colors:
