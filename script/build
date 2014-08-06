@@ -3,4 +3,4 @@
 set -ex
 
 jekyll --version
-jekyll build
+jekyll build $@

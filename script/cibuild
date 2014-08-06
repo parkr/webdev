@@ -2,7 +2,7 @@
 
 set -ex
 
-./script/build
+./script/build --config _config.yml,_github.yml
 
 test -z "$(which htmlproof)" && gem install html-proofer
 ./script/scan
