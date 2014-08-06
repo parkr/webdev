@@ -1,3 +1,8 @@
 #! /bin/bash
 
-bundle exec jekyll build
+set -ex
+
+./script/build
+
+test -z "$(which htmlproof)" && gem install html-proofer
+./script/scan
