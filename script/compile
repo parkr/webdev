@@ -1,3 +1,0 @@
-#! /bin/bash
-
-sass --style compressed _sass/parkersstuff.scss css/parkersstuff.css
