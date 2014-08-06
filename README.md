@@ -5,7 +5,7 @@ A collection of webdev resources collected over the years
 
 ## Testing
 
-[![Build Status](https://travis-ci.org/parkr/webdev.png?branch=gh-pages)](https://travis-ci.org/parkr/webdev)
+[![Build Status](https://travis-ci.org/parkr/webdev.svg?branch=gh-pages)](https://travis-ci.org/parkr/webdev)
 
 ## Credit
 
