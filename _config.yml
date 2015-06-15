@@ -7,34 +7,6 @@ excerpt_separator: ""
 
 permalink: /:categories/:title:output_ext
 
-prose:
-  metadata:
-    _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-          placeholder: "Title Goes Here"
-      - name: "layout"
-        field:
-          element: "text"
-          label: "Layout"
-          value: "post"
-          placeholder: "Enter a layout"
-      - name: "external-url"
-        field:
-          element: "text"
-          label: "URL Reference"
-          value: ""
-          placeholder: "http://"
-      - name: "mirror"
-        field:
-          element: "text"
-          label: "Link to the file mirror"
-          value: ""
-          placeholder: "some-file.txt"
-
 exclude:
 - Rakefile
 - vendor
