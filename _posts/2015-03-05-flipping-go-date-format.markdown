@@ -6,3 +6,5 @@ external-url: http://flippinggodateformat.com/
 ---
 
 THIS IS SO GREAT. Never worry about Go's date formatting ever again.
+
+NSFW version...? http://fuckinggodateformat.com/
