@@ -1,0 +1,13 @@
+---
+layout: post
+title: "HTTPS"
+date: 2015-11-21 16:52:49 -0800
+external-url: https://slides.com/cuanticosec/the-state-of-https#/
+---
+
+cuanticosec wrote a great post on the state of HTTPS on the web. Further
+reading:
+
+- [We're Deprecating HTTP And It's Going To Be
+Okay](https://konklone.com/post/were-deprecating-http-and-its-going-to-be-okay)
+- [Why It’s OK to Block Ads](http://blog.practicalethics.ox.ac.uk/2015/10/why-its-ok-to-block-ads/)
