@@ -1,3 +1,2 @@
 #! /bin/bash
-
-gem install jekyll jekyll-redirect-from
+bundle install -j8 || bundle install

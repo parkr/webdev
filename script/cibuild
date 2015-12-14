@@ -4,5 +4,5 @@ set -ex
 
 ./script/build --config _config.yml,_github.yml
 
-test -z "$(which htmlproof)" && gem install html-proofer
-./script/scan
+test -z "$(which htmlproof)" && rm -rf .bundle && bundle install
+bundle exec ./script/scan
